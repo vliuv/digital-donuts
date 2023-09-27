@@ -1,0 +1,183 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ffccd5;
+    cursor: url("images/amcursor.png"), auto;
+}
+
+#title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+/* donuts */
+
+#box {
+    border: solid black 4px;
+    background-color: white;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -279px;
+    z-index: -200;
+}
+
+.placeholder {
+    width: 115px;
+    height: 115px;
+    z-index: -100;
+}
+
+.donut {
+    width: 115px;
+    height: 115px;
+    opacity: 0;
+}
+
+#d1, #p1 {
+    position: absolute;
+    left: 50%;
+    margin-left: -257px;
+    top: 138px;
+}
+
+#d2, #p2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -124px;
+    top: 138px;
+}
+
+#d3, #p3 {
+    position: absolute;
+    left: 50%;
+    margin-left: 9px;
+    top: 138px;
+}
+
+#d4, #p4 {
+    position: absolute;
+    left: 50%;
+    margin-left: 142px;
+    top: 138px;
+}
+
+#d5, #p5 {
+    position: absolute;
+    left: 50%;
+    margin-left: -257px;
+    top: 271px;
+}
+
+#d6, #p6 {
+    position: absolute;
+    left: 50%;
+    margin-left: -124px;
+    top: 271px;
+}
+
+#d7, #p7 {
+    position: absolute;
+    left: 50%;
+    margin-left: 9px;
+    top: 271px;
+}
+
+#d8, #p8 {
+    position: absolute;
+    left: 50%;
+    margin-left: 142px;
+    top: 271px;
+}
+
+#d9, #p9 {
+    position: absolute;
+    left: 50%;
+    margin-left: -257px;
+    top: 404px;
+}
+
+#d10, #p10 {
+    position: absolute;
+    left: 50%;
+    margin-left: -124px;
+    top: 404px;
+}
+
+#d11, #p11 {
+    position: absolute;
+    left: 50%;
+    margin-left: 9px;
+    top: 404px;
+}
+
+#d12, #p12 {
+    position: absolute;
+    left: 50%;
+    margin-left: 142px;
+    top: 404px;
+}
+
+/* progress bar */
+
+#progressText {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 480px;
+}
+
+#progress {
+    background-color: orange;
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    margin-left: -204px;
+}
+
+#progressDiv1 {
+    background-color: black;
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    margin-left: -104px;
+    z-index: 100;
+}
+
+#progressDiv2 {
+    background-color: black;
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    z-index: 100;   
+}
+
+#progressDiv3 {
+    background-color: black;
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    margin-left: 104px;
+    z-index: 100;   
+}
+
+#progressOutline {
+    border: solid black 4px;
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    margin-left: -204px;
+    z-index: 100;
+}
+
+#progressBackground {
+    background-color: white;
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    margin-left: -204px;
+    z-index: -100;
+}
